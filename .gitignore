@@ -1,5 +1,4 @@
 node_modules/
-src/sessions/*.json
 src/x_session.json
 .DS_Store
 *.log
