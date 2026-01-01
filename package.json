@@ -1,0 +1,20 @@
+{
+  "name": "tweet-bot-rebuilt",
+  "version": "1.0.0",
+  "description": "Automated X (Twitter) bot",
+  "main": "src/index.ts",
+  "scripts": {
+    "login": "tsx src/index.ts login",
+    "post": "tsx src/index.ts post"
+  },
+  "dependencies": {
+    "@types/node-cron": "^3.0.11",
+    "exceljs": "^4.4.0",
+    "node-cron": "^4.2.1",
+    "playwright": "^1.40.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}

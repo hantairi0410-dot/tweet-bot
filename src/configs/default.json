@@ -1,0 +1,47 @@
+{
+  "patterns": {
+    "service_intro1": {
+      "text": "#自動投稿 #自動化\n手作業で毎日◯時間、消耗していませんか？\n自動化で「本来やるべき仕事」に集中できる環境を作ります。\n\nhttps://hotmoon0.online/?cat=1\n\n・業務効率化の提案\n・GAS、Pythonによる自動化ツール作成\n・スプレッドシート、Gmail、Chatwork連携\n・Googleフォーム作成・連携\n・WEBアプリケーション開発",
+      "media": "./image/newpro.png"
+    },
+    "service_intro2": {
+      "text": "#自動投稿 #自動化\n面倒なルーチンワーク、自動化しませんか？\n開発実績やご依頼の流れはブログをチェック！\nhttps://hotmoon0.online\n\n【対応可能業務】\n✅ GAS / Pythonツール作成\n✅ 各種SaaS連携（Gmail, Chatwork等）\n✅ Googleフォーム構築\n✅ 業務専用WEBアプリ開発",
+      "media": "./image/newpro.png"
+    },
+    "webapp": {
+      "text": "#自動投稿 #WEBアプリ\n【デモ動画】ログイン機能付き業務管理アプリ\nデータをスプレッドシートで一元管理し、GASをバックエンドにした専用WEBアプリの構築が可能です。\n\nログイン認証によるセキュリティ確保や、ダッシュボードでの可視化など、ご要望に合わせて作成します。\n\nhttps://hotmoon0.online",
+      "media": "./videos/WEBアプリケーション（ログイン付き）_マスキング.mp4"
+    },
+    "ad1": {
+      "text": "#自動投稿 #自動化\nそのルーティン作業、まだ手動でやっていませんか？\n毎日30分かかる入力業務やデータ収集を「完全自動化」。 浮いた時間で、もっとクリエイティブな仕事に集中しましょう。",
+      "media": "./image/newpro.png"
+    },
+    "ad2": {
+      "text": "#自動投稿 #自動化\n＼ 面倒な作業を、自動化の力でスマートに ／\n・API連携によるデータ自動同期 \n・スクレイピングでの情報収集 \n・LINE/Slackへの自動通知\n\nWebアプリ開発のプロが、あなたの「不便」を解決します。 相談ベースのDMも大歓迎です",
+      "media": "./image/newpro.png"
+    }
+  },
+  "actions": {
+    "targetKeywords": [
+      "個人事業",
+      "販売",
+      "小規模企業"
+    ],
+    "likeLimit": 5,
+    "followLimit": 3,
+    "ignoreUsers": [
+      "bot",
+      "advertisement"
+    ]
+  },
+  "schedules": {
+    "like": "0 12 * * *",
+    "follow": "0 18 * * *",
+    "post": [
+      {
+        "time": "0 8 * * *",
+        "key": "morning"
+      }
+    ]
+  }
+}
